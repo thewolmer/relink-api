@@ -4,6 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const path = require('path');
 const notesRouter = require('./routes/notes');
+const contentRouter = require('./routes/content');
 
 
 
@@ -13,6 +14,7 @@ const notesRouter = require('./routes/notes');
 
 app.use(cors());
 app.use('/notes', notesRouter);
+app.use('/content', contentRouter);
 
 // app.use(mainRouter);
 
