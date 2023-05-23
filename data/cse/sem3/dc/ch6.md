@@ -20,21 +20,21 @@ There may be three types of errors:
 
 ***6.1.1 Single bit error***
 
-> ![](image47.png){width="4.75in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image47.png){width="4.75in"
 > height="0.6569444444444444in"}
 
 In a frame, there is only one bit, anywhere though, which is corrupt.
 
 ***6.1.2 Multiple bits error***
 
-> ![](image48.png){width="4.75in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image48.png){width="4.75in"
 > height="0.6555544619422572in"}
 
 Frame is received with more than one bits in corrupted state.
 
 ***6.1.3 Burst error***
 
-> ![](image49.png){width="4.75in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image49.png){width="4.75in"
 > height="0.6569444444444444in"}
 
 Frame contains more than1 consecutive bits corrupted.
@@ -58,7 +58,7 @@ example, if even parity is used and number of 1s is even then one bit
 with value 0 is added. This way number of 1s remains even. If the number
 of 1s is odd, to make it even a bit with value 1 is added.
 
-> ![](image50.png){width="4.552777777777778in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image50.png){width="4.552777777777778in"
 > height="0.48888779527559056in"}
 
 The receiver simply counts the number of 1s in a frame. If the count of
@@ -80,7 +80,7 @@ at the end of the actual bits. Actual data bits plus the remainder
 
 is called a codeword. The sender transmits data bits as codeword.
 
-> ![](image51.png){width="5.604166666666667in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image51.png){width="5.604166666666667in"
 > height="3.823610017497813in"}
 
 At the other end, the receiver performs division operation on codewords
@@ -118,5 +118,5 @@ that the r bits themselves may get corrupted. So the number of r bits
 used must inform about m+r bit locations plus no-error information, i.e.
 m+r+1.
 
-![](image52.png){width="1.448611111111111in"
+![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image52.png){width="1.448611111111111in"
 height="0.2597211286089239in"}

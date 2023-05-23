@@ -6,21 +6,33 @@ const availableContent = {
       "year": "2023",
       "semesters": [
         {
-          "code": "sem1",
-          "title": "Semester 1",
+          "code": "sem3",
+          "title": "Semester 3",
           "subjects": [
             {
-              "code": "subject1",
-              "title": "Subject 1",
+              "code": "dc",
+              "title": "Data Communication",
               "chapters": [
                 {
                   "code": "ch1",
-                  "title": "Chapter 1"
+                  "title": "Introduction to Data Communication"
                 },
                 {
                   "code": "ch2",
-                  "title": "Chapter 2"
-                }
+                  "title": "Signals in Data Communication"
+                },
+                {
+                  "code": "ch3",
+                  "title": "Digital Transmission"
+                },
+                {
+                  "code": "ch5",
+                  "title": "Transmission Media"
+                },
+                {
+                  "code": "ch6",
+                  "title": "Error Detection and Correction in Digital Communication"
+                },
               ]
             },
             {

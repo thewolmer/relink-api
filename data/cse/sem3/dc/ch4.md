@@ -30,7 +30,7 @@ are separated by guard bands. Guard band is a
 +========+========+========+========+========+========+========+========+
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
-> ![](image36.png){width="5.854166666666667in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image36.png){width="5.854166666666667in"
 > height="2.3444444444444446in"}
 
 **4.2 Time Division Multiplexing**\
@@ -43,7 +43,7 @@ time slot. TDM works in synchronized mode. Both ends, i.e. Multiplexer
 and De-multiplexer are timely synchronized, and both switch to next
 channel simultaneously.
 
-> ![](image37.png){width="5.572222222222222in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image37.png){width="5.572222222222222in"
 > height="2.2083333333333335in"}
 
 When channel A transmits its frame at one end, the De-multiplexer
@@ -71,5 +71,5 @@ same
 
 manner as FDM but uses light as signals.
 
-> ![](image38.png){width="5.156944444444444in"
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image38.png){width="5.156944444444444in"
 > height="2.2180555555555554in"}

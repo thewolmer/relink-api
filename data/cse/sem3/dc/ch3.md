@@ -13,13 +13,13 @@ The process for converting digital data into digital signal is said to
 be Line Coding. Digital data is found in binary format. It is
 represented (stored) internally as series of 1s and 0s.
 
-![](image18.png){width="6.766666666666667in"
+![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/image18.png){width="6.766666666666667in"
 height="2.251388888888889in"}
 
 Digital signal is denoted by discreet signal, which represents digital
 data. There are three types of line coding schemes available
 
-![](image19.png){width="6.9944444444444445in"
+![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/image19.png){width="6.9944444444444445in"
 height="1.9888877952755906in"}
 
 **Unipolar Encoding**\
@@ -29,7 +29,7 @@ represent 0, no voltage is transmitted. It is also called
 Unipolar-Non-return-to-zero, because there is no rest condition i.e. it
 either represents 1 or 0.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image20.png){width="5.822222222222222in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image20.png){width="5.822222222222222in"
 > height="2.2805544619422573in"}
 
 **Polar Encoding**\
@@ -44,7 +44,7 @@ Generally, positive voltage represents 1 and negative value represents
 
 NRZ scheme has two variants: NRZ-L and NRZ-I.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image21.png){width="5.094444444444444in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image21.png){width="5.094444444444444in"
 > height="4.9277766841644794in"}
 
 NRZ-L changes voltage level at when a different bit is encountered
@@ -58,7 +58,7 @@ the next bit is started, in case when sender and receiver's clock are
 not synchronized.
 
 .
-![](image22.png){width="5.1875in"
+![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/image22.png){width="5.1875in"
 height="2.7180555555555554in"}
 
 RZ uses three voltage levels, positive voltage to represent 1, negative
@@ -79,7 +79,7 @@ Bipolar encoding uses three voltage levels, positive, negative, and
 zero. Zero voltage represents binary 0 and bit 1 is represented by
 altering positive and negative voltages.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image23.png){width="5.1875in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image23.png){width="5.1875in"
 > height="2.7180555555555554in"}
 
 ***3.1.2 Block Coding***\
@@ -120,7 +120,7 @@ sampling is the rate at which analog signal is sampled. According to
 Nyquist Theorem, the sampling rate must be at least two times of the
 highest frequency of the signal.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image24.png){width="5.604166666666667in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image24.png){width="5.604166666666667in"
 > height="1.6874989063867016in"}
 
 ***3.2.2 Quantization***
@@ -135,7 +135,7 @@ between the maximum amplitude value and the minimum amplitude value.
 
 Quantization is approximation of the instantaneous analog value.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image25.png){width="5.698611111111111in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image25.png){width="5.698611111111111in"
 > height="1.6874989063867016in"}
 
 ***3.2.3 Encoding***
@@ -143,7 +143,7 @@ Quantization is approximation of the instantaneous analog value.
 In encoding, each approximated value is then converted into binary
 format.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image26.png){width="5.636111111111111in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image26.png){width="5.636111111111111in"
 > height="1.6875in"}
 
 **3.3 Transmission Modes**
@@ -176,14 +176,14 @@ or data frame, a complete group of bits (data frame) is sent in one go.
 Advantage of Parallel transmission is high speed and disadvantage is the
 cost of wires, as it is equal to the number of bits sent in parallel.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image27.png){width="5.636111111111111in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image27.png){width="5.636111111111111in"
 > height="3.1555555555555554in"}
 
 ***3.3.2 Serial Transmission***\
 In serial transmission, bits are sent one after another in a queue
 manner. Serial transmission requires only one communication channel.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image28.png){width="5.636111111111111in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image28.png){width="5.636111111111111in"
 > height="1.6874989063867016in"}
 
 Serial transmission can be either asynchronous or synchronous.
@@ -242,12 +242,12 @@ When binary data represents digit 1, the amplitude is held; otherwise it
 is set to 0. Both frequency and phase remain same as in the original
 carrier signal.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image29.png){width="5.291666666666667in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image29.png){width="5.291666666666667in"
 > height="3.1458333333333335in"}
 
 ***3.5.2 Frequency Shift Keying***
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image30.png){width="5.354166666666667in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image30.png){width="5.354166666666667in"
 > height="3.0722222222222224in"}
 
 In this conversion technique, the frequency of the analog carrier signal
@@ -266,7 +266,7 @@ When a new binary symbol is encountered, the phase of the signal is
 altered. Amplitude and frequency of the original carrier signal is kept
 intact.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image31.png){width="5.354166666666667in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image31.png){width="5.354166666666667in"
 > height="3.0833333333333335in"}
 
 **3.6 Analog-to-Analog Conversion**\
@@ -276,7 +276,7 @@ pass is
 
 used. Analog to analog conversion can be done in three ways:
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image32.png){width="5.677777777777778in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image32.png){width="5.677777777777778in"
 > height="1.1666666666666667in"}
 
 ***3.6.1 Amplitude Modulation***
@@ -285,7 +285,7 @@ In this modulation, the amplitude of the carrier signal is modified to
 reflect the
 
 analog data.
-![](image33.png){width="5.208333333333333in"
+![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/image33.png){width="5.208333333333333in"
 height="6.0736100174978125in"}
 
 Amplitude modulation is implemented by means of a multiplier. The
@@ -299,7 +299,7 @@ In this modulation technique, the frequency of the carrier signal is
 modified to reflect the change in the voltage levels of the modulating
 signal (analog data).
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image34.png){width="5.208333333333333in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image34.png){width="5.208333333333333in"
 > height="6.072222222222222in"}
 
 The amplitude and phase of the carrier signal are not altered.
@@ -309,7 +309,7 @@ In the modulation technique, the phase of carrier signal is modulated in
 order to reflect the change in voltage (amplitude) of analog data
 signal.
 
->![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image35.png){width="5.208333333333333in"
+>![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch3/https://api.relinklibrary.com/static/images/cse/sem3/dc/ch3/image35.png){width="5.208333333333333in"
 > height="6.072222222222222in"}
 
 Phase modulation is practically similar to Frequency Modulation, but in
