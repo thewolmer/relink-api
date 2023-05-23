@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const availableContent = require('../content/availablecontent');
+const sponsors = require('../content/sponsors');
 
 router.get('/', (req, res) => {
   res.json(availableContent);
@@ -60,6 +61,10 @@ router.get('/:branch/:semester/:subject', (req, res) => {
   } else {
     res.status(404).json({ error: 'Branch not found' });
   }
+});
+
+router.get('/sponsors', (req, res) => {
+  res.json(sponsors);
 });
 
 module.exports = router;
