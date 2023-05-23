@@ -1,10 +1,10 @@
-**CHAPTER 5**
+# CHAPTER 5 
 
-**5. TRANSMISSION MEDIA**\
+## 5. TRANSMISSION MEDIA ## 
 The transmission media is nothing but the physical media over which
 communication takes place in computer networks.
 
-**5.1 Magnetic Media**\
+## 5.1 Magnetic Media ## 
 One of the most convenient ways to transfer data from one computer to
 another, even before the birth of networking, was to save it on some
 storage media and transfer physical from one station to another. Though
@@ -21,7 +21,7 @@ Even if they do; the cost is too high to afford.
 In these cases, data backup is stored onto magnetic tapes or magnetic
 discs, and then shifted physically at remote places.
 
-**5.2 Twisted Pair Cable**\
+## 5.2 Twisted Pair Cable ## 
 A twisted pair cable is made of two plastic insulated copper wires
 twisted together to form a single media. Out of these two wires, only
 one carries actual signal and another is used for ground reference. The
@@ -29,8 +29,7 @@ twists between wires are helpful in
 
 reducing noise (electro-magnetic interference) and crosstalk.
 
-> ![](image39.png){width="5.822222222222222in"
-> height="4.75in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image39.png)
 
 There are two types of twisted pair cables:
 
@@ -51,7 +50,7 @@ connected by
 
 RJ45 connectors.
 
-**5.3 Coaxial Cable**
+## 5.3 Coaxial Cable ## 
 
 Coaxial cable has two wires of copper. The core wire lies in the center
 and it is
@@ -62,8 +61,7 @@ The second
 wire is wrapped around over the sheath and that too in turn encased by
 insulator sheath. This all is covered by plastic cover.
 
-> ![](image40.png){width="5.822222222222222in"
-> height="4.365277777777778in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image40.png)
 
 Because of its structure, the coax cable is capable of carrying high
 frequency signals than that of twisted pair cable. The wrapped structure
@@ -77,7 +75,7 @@ Government.
 Cables are connected using BNC connector and BNC-T. BNC terminator is
 used to terminate the wire at the far ends.
 
-**5.4 Power Lines**\
+## 5.4 Power Lines ## 
 Power Line communication (PLC) is Layer-1 (Physical Layer) technology
 which uses power cables to transmit data signals. In PLC, modulated data
 is sent over the cables. The receiver on the other end de-modulates and
@@ -88,7 +86,7 @@ devices controlled and monitored. PLC works in half-duplex.
 
 There are two types of PLCs:
 
-> •Narrow band PLC\
+> •Narrow band PLC
 > •Broad band PLC
 
 Narrow band PLC provides lower data rates up to 100s of kbps, as they
@@ -97,7 +95,7 @@ kilometers. Broadband PLC provides higher data rates up to 100s of Mbps
 and works at higher frequencies (1.8 -- 250 MHz). They cannot be as much
 extended as Narrowband PLC.
 
-**5.5 Fiber Optics**\
+## 5.5 Fiber Optics ## 
 Fiber Optic works on the properties of light. When light ray hits at
 critical angle, it tends to refracts at 90 degree. This property has
 been used in fiber optic. The core of fiber optic cable is made of high
@@ -110,14 +108,13 @@ one is single mode fiber and second is multimode fiber. Single mode
 fiber can carry a single ray of light whereas multimode is capable of
 carrying multiple beams of light.
 
-> ![](image41.png){width="5.822222222222222in"
-> height="4.625in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image41.png)
 
 Fiber Optic also comes in unidirectional and bidirectional capabilities.
 To connect and access fiber optic special type of connectors are used.
 These can be Subscriber Channel (SC), Straight Tip (ST), or MT-RJ.
 
-**5.6 WIRELESS TRANSMISSION**\
+## 5.6 WIRELESS TRANSMISSION ## 
 Wireless transmission is a form of unguided media. Wireless
 communication involves no physical link established between two or more
 devices, communicating wirelessly. Wireless signals are spread over in
@@ -131,10 +128,9 @@ end receives these signals and converts them back to digital data.
 A little part of electromagnetic spectrum can be used for wireless
 transmission.
 
-> ![](image42.png){width="5.541666666666667in"
-> height="1.0722222222222222in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image42.png)
 
-**5.7 Radio Transmission**\
+## 5.7 Radio Transmission ## 
 Radio frequency is easier to generate and because of its large
 wavelength it can penetrate through walls and structures alike. Radio
 waves can have wavelength from 1mm -- 100,000km and have frequency
@@ -151,8 +147,7 @@ to
 
 1000 kilometers, over the earth's surface.
 
-> ![](image43.png){width="4.958333333333333in"
-> height="1.7194444444444446in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image43.png)
 
 Radio waves of high frequencies are prone to be absorbed by rain and
 other obstacles. They use Ionosphere of earth atmosphere. High frequency
@@ -161,10 +156,9 @@ Ionosphere, they
 
 are refracted back to the earth.
 
-> ![](image44.png){width="4.968055555555556in"
-> height="3.4277777777777776in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image44.png)
 
-**5.8 Microwave Transmission**\
+## 5.8 Microwave Transmission ## 
 Electromagnetic waves above 100MHz tend to travel in a straight line and
 signals over them can be sent by beaming those waves towards one
 particular station. Because Microwaves travels in straight lines, both
@@ -173,8 +167,7 @@ sender and receiver must be aligned to be strictly in line-of-sight.
 Microwaves can have wavelength ranging from 1mm -- 1meter and frequency
 ranging from 300MHz to 300GHz.
 
-> ![](image45.png){width="4.145833333333333in"
-> height="1.3444433508311462in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image45.png)
 
 Microwave antennas concentrate the waves making a beam of it. As shown
 in picture above, multiple antennas can be aligned to reach farther.
@@ -184,7 +177,7 @@ obstacles.
 Microwave transmission depends highly upon the weather conditions and
 the frequency it is using.
 
-**5.9 Infrared Transmission**\
+## 5.9 Infrared Transmission ## 
 Infrared wave lies in between visible light spectrum and microwaves. It
 has wavelength of 700nm to 1mm and frequency ranges from 300GHz to
 430THz. Infrared wave is used for very short range communication
@@ -192,7 +185,7 @@ purposes such as television and its remote. Infrared travels in a
 straight line hence it is directional by nature. Because of high
 frequency range, Infrared cannot cross wall-like obstacles.
 
-**5.10 Light Transmission**\
+## 5.10 Light Transmission ## 
 Highest most electromagnetic spectrum which can be used for data
 transmission is light or optical signaling. This is achieved by means of
 LASER.
@@ -204,8 +197,7 @@ communication the laser and the photo-detector needs to be installed.
 Laser beam is generally 1mm wide hence it is a work of precision to
 align two far receptors each pointing to lasers source.
 
-> ![](image46.png){width="5.636111111111111in"
-> height="3.333332239720035in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch5/image46.png)
 
 Laser works as Tx (transmitter) and photo-detectors works as Rx
 (receiver). Lasers cannot penetrate obstacles such as walls, rain, and

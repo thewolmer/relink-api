@@ -1,6 +1,6 @@
-**CHAPTER 4**
+ ## CHAPTER 4 ## 
 
-**4. MULTIPLEXING**
+ ## 4. MULTIPLEXING ## 
 
 Multiplexing is a technique by which different analog and digital
 streams of transmission can be simultaneously processed over a shared
@@ -16,7 +16,7 @@ Multiplexer divides the physical channel and allocates one to each. On
 the other end of communication, a De-multiplexer receives data from a
 single medium, identifies each, and sends to different receivers.
 
-**4.1 Frequency Division Multiplexing**\
+ ## 4.1 Frequency Division Multiplexing ## 
 When the carrier is frequency, FDM is used. FDM is an analog technology.
 FDM divides the spectrum or carrier bandwidth in logical channels and
 allocates one user to each channel. Each user can use the channel
@@ -24,16 +24,10 @@ frequency independently and has exclusive access of it. All channels are
 divided in such a way that they do not overlap with each other. Channels
 are separated by guard bands. Guard band is a
 
-+--------+--------+--------+--------+--------+--------+--------+--------+
-| fre    | which  | is     | not    | used   | by     | either | > ch   |
-| quency |        |        |        |        |        |        | annel. |
-+========+========+========+========+========+========+========+========+
-+--------+--------+--------+--------+--------+--------+--------+--------+
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image36.png){width="5.854166666666667in"
-> height="2.3444444444444446in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch4/image36.png)
 
-**4.2 Time Division Multiplexing**\
+ ## 4.2 Time Division Multiplexing ## 
 TDM is applied primarily on digital signals but can be applied on analog
 signals as well. In TDM the shared channel is divided among its user by
 means of time slot. Each user can transmit data within the provided time
@@ -43,8 +37,7 @@ time slot. TDM works in synchronized mode. Both ends, i.e. Multiplexer
 and De-multiplexer are timely synchronized, and both switch to next
 channel simultaneously.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image37.png){width="5.572222222222222in"
-> height="2.2083333333333335in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch4/image37.png)
 
 When channel A transmits its frame at one end, the De-multiplexer
 provides media to channel A on the other end. As soon as the channel A's
@@ -58,7 +51,7 @@ different
 
 channels travel the path in interleaved manner.
 
-**4.3 Wavelength Division Multiplexing**
+ ## 4.3 Wavelength Division Multiplexing ## 
 
 Light has different wavelength (colors). In fiber optic mode, multiple
 optical
@@ -71,5 +64,4 @@ same
 
 manner as FDM but uses light as signals.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch4/image38.png){width="5.156944444444444in"
-> height="2.2180555555555554in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch4/image38.png)

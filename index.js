@@ -18,6 +18,6 @@ app.use('/notes', notesRouter);
 app.use('/content', contentRouter);
 app.use('/static', express.static(path.join(__dirname, 'static')));
 
-// app.use(mainRouter);
+app.use(mainRouter);
 
 app.listen(PORT, () => console.log(`Listening to port http://localhost:${PORT}`));

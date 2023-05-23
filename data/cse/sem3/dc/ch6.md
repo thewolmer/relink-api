@@ -1,6 +1,6 @@
-**CHAPTER 6**
+ # CHAPTER 6  
 
-**6. Error Detection and Correction**\
+ ## 6. Error Detection and Correction ## 
 There are many reasons such as noise, cross-talk etc., which may help
 data to get corrupted during transmission. The upper layers work on some
 generalized view of network architecture and are not aware of actual
@@ -15,41 +15,38 @@ Data-link layer uses some error control mechanism to ensure that frames
 to understand how errors is controlled, it is essential to know what
 types of errors may occur.
 
-**6.1 Types of Errors**\
+ ## 6.1 Types of Errors ## 
 There may be three types of errors:
 
-***6.1.1 Single bit error***
+ ### 6.1.1 Single bit error ### 
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image47.png){width="4.75in"
-> height="0.6569444444444444in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image47.png)
 
 In a frame, there is only one bit, anywhere though, which is corrupt.
 
-***6.1.2 Multiple bits error***
+ ### 6.1.2 Multiple bits error ### 
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image48.png){width="4.75in"
-> height="0.6555544619422572in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image48.png)
 
 Frame is received with more than one bits in corrupted state.
 
-***6.1.3 Burst error***
+ ### 6.1.3 Burst error ### 
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image49.png){width="4.75in"
-> height="0.6569444444444444in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image49.png)
 
 Frame contains more than1 consecutive bits corrupted.
 
-Error control mechanism may involve two possible ways: •Error detection\
+Error control mechanism may involve two possible ways: •Error detection
 •Error correction
 
-**6.2 Error Detection**\
+ ## 6.2 Error Detection ## 
 Errors in the received frames are detected by means of Parity Check and
 Cyclic Redundancy Check (CRC). In both cases, few extra bits are sent
 along with actual data to confirm that bits received at other end are
 same as they were sent. If the counter-check at receiver end fails, the
 bits are considered corrupted.
 
-***6.2.1 Parity Check***\
+ ### 6.2.1 Parity Check ### 
 One extra bit is sent along with the original bits to make number of 1s
 either even in case of even parity, or odd in case of odd parity.
 
@@ -58,8 +55,7 @@ example, if even parity is used and number of 1s is even then one bit
 with value 0 is added. This way number of 1s remains even. If the number
 of 1s is odd, to make it even a bit with value 1 is added.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image50.png){width="4.552777777777778in"
-> height="0.48888779527559056in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image50.png)
 
 The receiver simply counts the number of 1s in a frame. If the count of
 1s is even and even parity is used, the frame is considered to be
@@ -70,7 +66,7 @@ If a single bit flips in transit, the receiver can detect it by counting
 the number of 1s. But when more than one bit is erroneous, then it is
 very hard for the receiver to detect the error.
 
-***6.2.2 Cyclic Redundancy Check (CRC)***\
+ ### 6.2.2 Cyclic Redundancy Check (CRC) ### 
 CRC is a different approach to detect if the received frame contains
 valid data. This technique involves binary division of the data bits
 being sent. The divisor is generated using polynomials. The sender
@@ -80,22 +76,21 @@ at the end of the actual bits. Actual data bits plus the remainder
 
 is called a codeword. The sender transmits data bits as codeword.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image51.png){width="5.604166666666667in"
-> height="3.823610017497813in"}
+> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image51.png)
 
 At the other end, the receiver performs division operation on codewords
 using the same CRC divisor. If the remainder contains all zeros the data
 bits are accepted, otherwise it is considered as there is some data
 corruption occurred in transit.
 
-**6.3 Error Correction**\
+ ## 6.3 Error Correction ## 
 In the digital world, error correction can be done in two ways:
 
-***6.3.1 Backward Error Correction***\
+ ### 6.3.1 Backward Error Correction ### 
 When the receiver detects an error in the data received, it requests
 back the sender to retransmit the data unit.
 
-***6.3.2 Forward Error Correction***\
+ ### 6.3.2 Forward Error Correction ### 
 When the receiver detects some error in the data received, it executes
 error-correcting code, which helps it to auto-recover and to correct
 some kinds of errors. The first one, Backward Error Correction, is
@@ -118,5 +113,4 @@ that the r bits themselves may get corrupted. So the number of r bits
 used must inform about m+r bit locations plus no-error information, i.e.
 m+r+1.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/sc/ch6/image52.png){width="1.448611111111111in"
-height="0.2597211286089239in"}
+![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch6/image52.png)
