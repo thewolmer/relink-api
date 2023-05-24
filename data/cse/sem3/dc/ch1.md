@@ -6,7 +6,7 @@ and vice versa. It enables the movement of electronic or digital data
 between two or more nodes, regardless of geographical location,
 technological medium or data contents.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image1.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image1.png)
 >
 >  ## 1.1Transmission Modes ## 
 >
@@ -15,33 +15,33 @@ technological medium or data contents.
 > Communication Mode. These modes direct the direction of flow of
 > information. There are three types of transmission modes. They are:
 >
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image2.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image2.png)
  ### 1.1.1 SIMPLEX MODE ### 
 
 In this type of transmission mode, data can be sent only in one
 direction i.e. communication is unidirectional.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image3.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image3.png)
  ### 1.1.2 HALF DUPLEX MODE ### 
 
 Half-duplex data transmission means that data can be transmitted in both
 directions on a signal carrier, but not at the same time.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image4.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image4.png)
  ### 1.1.3 FULL DUPLEX Mode ### 
 
 In full duplex system we can send data in both the directions as it is
 bidirectional at the same time in other words, data can be sent in both
 directions simultaneously.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image5.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image5.png)
  ## 1.2 COMPONENTS OF DATA COMMUNICATION ## 
  ### 1.2.1 Message ### 
 The message is the data or information to be communicated. It may
 consist of text, number, pictures, sound, video or any a combination of
 these.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image6.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image6.png)
  ### 1.2.2 Sender ### 
 
 Sender is a device that sends message. The message can consist of text,
@@ -79,7 +79,7 @@ as two to as much as 16 million. LAN provides a useful way of sharing
 the resources between end users. The resources such as printers, file
 servers, scanners, and internet are easily sharable among computers.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image7.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image7.png)
 
 LANs are composed of inexpensive networking and routing equipment. It
 may contain local servers serving file storage and other locally shared
@@ -105,7 +105,7 @@ enables its
 users to expand their Local Area Networks. For example, MAN can help an
 
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image8.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image8.png)
 Backbone of MAN is high-capacity and high-speed fiber optics. MAN works
 in
 
@@ -128,7 +128,7 @@ speed
 
 backbone, WANs use very expensive network equipment.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image9.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image9.png)
 
 WAN may use advanced technologies such as Asynchronous Transfer Mode
 (ATM), Frame Relay, and Synchronous Optical Network (SONET). WAN may be
@@ -147,7 +147,7 @@ switches, routers, or servers connected back to back using a single
 piece of cable. Often, the receiving end of one host is connected to
 sending end of the other and vice versa.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image10.png) If the hosts are connected point-to-point
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image10.png) If the hosts are connected point-to-point
 logically, then may have multiple intermediate devices. But the end
 hosts are unaware of underlying network and see each other as if they
 are connected directly.
@@ -161,7 +161,7 @@ the simple forms of networking where a failure of a device does not
 affect the other devices. But failure of the shared communication line
 can make all other devices stop functioning.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image11.png)
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image11.png)
 
 
 Both ends of the shared channel have line terminator. The data is sent
@@ -170,9 +170,9 @@ terminator removes the data from the line.
 
  ### 1.4.3 Star Topology ### 
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image12.png)
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image12.png)
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image13.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image12.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image12.png)
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image13.png)
 
 All hosts in Star topology are connected to a central device, known as
 hub device, using a point-to-point connection. That is, there exists a
@@ -213,7 +213,7 @@ the
 
 administrator may need only one more extra cable.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image14.png) Failure
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image14.png) Failure
 
 of any host results in failure of the whole ring. Thus, every connection
 in the ring
@@ -231,17 +231,17 @@ have hosts
 
 which are in point-to-point connection with few hosts only.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image15.png) Hosts in Mesh topology also work as relay
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image15.png) Hosts in Mesh topology also work as relay
 for other hosts which do not have direct point-to-point links. Mesh
 technology comes into two types:
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image12.png) 
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image12.png) 
 ## Full Mesh: ##  
 All hosts have a point-to-point connection to every other host in the network. Thus for
 every new host n(n-1)/2 connections are required. It provides the most
 reliable network structure among all network topologies.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image12.png) 
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image12.png) 
 ## Partially Mesh: ##  
 Not all hosts have point-to-point connection to every other host. Hosts connect to each
 other in some arbitrarily fashion. This topology exists where we need to
@@ -269,7 +269,7 @@ network, i.e.
 
 root of the tree from which all nodes fork.
 
-> ![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image16.png) All
+> ![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image16.png) All
 
 neighboring hosts have point-to-point connection between them. Similar
 to the Bus
@@ -291,7 +291,7 @@ hybrid topology. Hybrid topology inherits merits and demerits of all the
 
 incorporating topologies.
 
-![](https://api.relinklibrary.com/static/images/cse/sem3/dc/ch1/image17.png) The above picture represents an arbitrarily
+![](https://api.relinklibarary.com/static/images/cse/sem3/dc/ch1/image17.png) The above picture represents an arbitrarily
 hybrid topology. The combining topologies may contain attributes of
 Star, Ring, Bus, and Daisy-chain topologies. Most WANs are connected by
 means of Dual-Ring topology and networks connected to them are mostly

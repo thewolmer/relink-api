@@ -36,16 +36,16 @@ const availableContent = {
               ]
             },
             {
-              "code": "subject2",
-              "title": "Subject 2",
+              "code": "os",
+              "title": "Operating System",
               "chapters": [
                 {
-                  "code": "ch3",
-                  "title": "Chapter 3"
+                  "code": "ch1",
+                  "title": "Operating Systems"
                 },
                 {
-                  "code": "ch4",
-                  "title": "Chapter 4"
+                  "code": "ch2",
+                  "title": "Process Management"
                 }
               ]
             }
